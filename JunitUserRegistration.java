@@ -37,7 +37,7 @@ public class JunitUserRegistration {
 		Matcher matcher = pattern.matcher(password);
 	    return matcher.matches();
 	}
-	//method to check for a valid for different Emails by the user
+	//method to check for a valid for different Emails
 	public static boolean isValidUserEmail(String emalId) {
 		Pattern pattern = Pattern.compile("^[a-zA-Z-9]+([._+-]*[0-9A-Za-z]+)*@[a-zA-Z0-9]+.[a-zA-Z]{2,4}([.][a-z]{2,4})?$");
 		Matcher matcher = pattern.matcher(emalId);
